@@ -20,7 +20,7 @@ get_header();
 
 <main id="site-content">
 
-	<p>テーマを変更しました</p>
+	<p>index.phpです</p>
 
 	<?php
 
