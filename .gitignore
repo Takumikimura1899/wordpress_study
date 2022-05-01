@@ -1,0 +1,12 @@
+# WordPressによって書き換わる場合があるため除外
+/public/.htaccess
+/public/sitemap*
+# テーマフォルダと wp-config.php のみにする
+/public/*
+!/public/wp-config.php
+!/public/wp-content
+/public/wp-content/*
+!/public/wp-content/themes
+/public/wp-content/themes/*
+!/public/wp-content/themes/maintheme
+[/code]
