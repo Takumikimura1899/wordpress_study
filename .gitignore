@@ -9,5 +9,6 @@
 !/public/wp-content/themes
 /public/wp-content/themes/*
 !/public/wp-content/themes/twentytwenty
+!/public/wp-content/themes/mytheme
 !/public/wp-content/themes/maintheme
 [/code]
