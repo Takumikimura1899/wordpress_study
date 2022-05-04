@@ -75,11 +75,10 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <?php if (have_posts()) : ?>
-          <?php while (have_posts()) : ?>
+          <?php while (have_posts()) : the_post(); ?>
             <div class="post-preview">
-              <a href="post.html">
+              <a href=<?php the_permalink(); ?>>
                 <h2 class="post-title">
-                  <?php the_post(); ?>
                   <?php the_title(); ?>
                 </h2>
                 <h3 class="post-subtitle">
